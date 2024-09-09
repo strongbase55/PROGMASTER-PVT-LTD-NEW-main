@@ -14044,7 +14044,7 @@ nav ul li a {
     display: block;
     width: 100%;
     box-shadow: none;
-    background: #553cdf;
+    /* background: #553cdf; */
     z-index: 999;
     margin: auto;
     align-items: center;
@@ -18554,6 +18554,7 @@ nav ul li a {
     border: 1px solid #EFECFF;
     position: relative;
     height: 100%;
+    width: 300px;
 }
 
 .rts-single-course.course-list {

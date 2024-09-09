@@ -179,8 +179,7 @@
                     swipers.forEach((swiper) => {
                         // get options
                         let optionsData = swiper.dataset.swiper ?
-                            JSON.parse(swiper.dataset.swiper) :
-                            {};
+                            JSON.parse(swiper.dataset.swiper) : {};
                         // combine defaults and custom options
                         let options = {
                             ...defaults,
@@ -572,7 +571,7 @@
             function makeTimer() {
 
                 //		var endTime = new Date("29 April 2018 9:56:00 GMT+01:00");	
-                var endTime = new Date("29 April 2025 9:56:00 GMT+01:00");
+                var endTime = new Date("30 September 2024 00:00:00 GMT+01:00");
                 endTime = (Date.parse(endTime) / 1000);
 
                 var now = new Date();

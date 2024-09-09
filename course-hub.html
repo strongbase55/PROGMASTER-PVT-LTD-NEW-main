@@ -26,6 +26,11 @@
             height: 80px;
             width: 100px;
         }
+        
+        .locked-all {
+            pointer-events: none;
+            cursor: not-allowed;
+        }
     </style>
 </head>
 
@@ -48,41 +53,49 @@
                                 <nav>
                                     <ul>
                                         <li class="has-dropdown" style="position: static;">
-                                            <a class="nav-link" href="#">Home</a>
-
+                                            <a class="nav-link" href="#">LMS</a>
                                             <ul class="megamenu-hub">
                                                 <li>
                                                     <ul class="">
                                                         <li>
-                                                            <a href="index-three.html">Internship Hub</a>
+                                                            <a href="course-hub.html">Internship Hub</a>
                                                             <span>Hot</span>
                                                         </li>
                                                         <li>
-                                                            <a href="index-two.html">Online course </a>
+                                                            <a href="index-two.html" class="locked-all">Online
+                                                                course </a>
                                                             <span class="popular">Popular</span>
                                                         </li>
                                                         <li>
-                                                            <a href="index.html">Live Projects</a>
+                                                            <a href="index.html" class="locked-all">Live
+                                                                Projects</a>
 
                                                         </li>
-                                                        <li><a href="index-four.html">Distance learning</a></li>
+                                                        <li><a href="index-four.html" class="locked-all">Distance
+                                                                learning</a></li>
                                                         <li>
-                                                            <a href="index-five.html">Instructor Hiring</a>
+                                                            <a href="index-five.html" class="locked-all">Instructor
+                                                                Hiring</a>
                                                             <span>Hot</span>
                                                         </li>
                                                     </ul>
                                                     <ul class="">
                                                         <li>
-                                                            <a href="index-six.html">Online Terminal</a>
+                                                            <a href="index-six.html" class="locked-all">Online
+                                                                Terminal</a>
                                                             <span>Hot</span>
                                                         </li>
-                                                        <li><a href="index-seven.html">Student Community</a></li>
+                                                        <li><a href="index-seven.html" class="locked-all">Student
+                                                                Community</a></li>
                                                         <li>
-                                                            <a href="index-eight.html">Up-Comming Webinar</a>
+                                                            <a href="index-eight.html" class="locked-all">Up-Comming
+                                                                Webinar</a>
                                                             <span class="popular">Popular</span>
                                                         </li>
-                                                        <li><a href="index-nine.html">Course Portal</a></li>
-                                                        <li><a href="index-ten.html">Inern Hiring</a></li>
+                                                        <li><a href="index-nine.html" class="locked-all">Course
+                                                                Portal</a></li>
+                                                        <li><a href="index-ten.html" class="locked-all">Inern
+                                                                Hiring</a></li>
                                                     </ul>
                                                     <div class="absolute-image-shape shape-image">
                                                         <img class=" shape one" src="assets/images/nav/02.png" data-speed="0.04" data-revert="true" alt="nav">
@@ -101,10 +114,10 @@
                                         <li class="has-dropdown">
                                             <a class="nav-link" href="#">Pages</a>
                                             <ul class="submenu">
-                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="about.html" class="locked-all">About Us</a></li>
                                                 <!-- <li><a href="about-two.html">About Two</a></li>
                                                 <li><a href="instructor-profile.html">Profile</a></li> -->
-                                                <li><a href="contact.html">Contact</a></li>
+                                                <li><a href="contact.html" class="locked-all">Contact</a></li>
                                                 <!-- <li class="sub-dropdown"> -->
                                                 <!-- <a href="javascript:void(0);">Zoom</a>
                                                     <ul class="submenu third-lvl base">
@@ -133,120 +146,62 @@
                                             </ul>
                                         </li>
                                         <li class="has-dropdown" style="position: static;">
-                                            <a class="nav-link" href="#">Courses</a>
+                                            <a class="nav-link locked-all" href="#">Courses</a>
                                             <ul class="megamenu-hub min-mega shape-move">
                                                 <li>
                                                     <ul class="">
                                                         <li class="parent"><a href="#">Internship</a></li>
-                                                        <li><a class="mobile-menu-link" href="course-one.html">Java</a>
+                                                        <li><a class="mobile-menu-link" href="java-course.html">Java</a>
                                                         </li>
-                                                        <li><a class="mobile-menu-link" href="course-two.html">Python</a></li>
-                                                        <li><a class="mobile-menu-link" href="course-three.html">Web
-                                                                Dev</a></li>
-                                                        <li><a class="mobile-menu-link" href="course-four.html">Flutter</a></li>
-                                                        <li><a class="mobile-menu-link" href="course-five.html">Data
+                                                        <li><a class="mobile-menu-link" href="python-course.html">Python</a>
+                                                        </li>
+                                                        <li><a class="mobile-menu-link" href="web dev.html">Web
+                                                                Dev</a>
+                                                        </li>
+                                                        <li><a class="mobile-menu-link locked-all" href="course-four.html">Flutter</a>
+                                                        </li>
+                                                        <li><a class="mobile-menu-link locked-all" href="course-five.html">Data
                                                                 Science</a></li>
-                                                        <li><a class="mobile-menu-link" href="course-six.html">Microsoft
+                                                        <li><a class="mobile-menu-link locked-all" href="course-six.html">Microsoft
                                                                 Azure</a></li>
                                                     </ul>
                                                     <ul class="">
-                                                        <li class="parent"><a href="#">Courses </a></li>
-                                                        <li><a class="mobile-menu-link" href="single-course.html">AWS</a></li>
-                                                        <li><a class="mobile-menu-link" href="single-course-two.html">A.I</a></li>
-                                                        <li><a class="mobile-menu-link" href="single-course-three.html">M.L</a></li>
-                                                        <li><a class="mobile-menu-link" href="single-course-four.html">Block Chain</a></li>
-                                                        <li><a class="mobile-menu-link" href="single-course-five.html">Cloud Computing</a></li>
-                                                        <li><a class="mobile-menu-link" href="single-course-free.html">Ethical Hacking</a></li>
+                                                        <li class="parent"><a href="#" class="locked-all">Courses
+                                                            </a></li>
+                                                        <li><a class="mobile-menu-link locked-all" href="single-course.html">AWS</a>
+                                                        </li>
+                                                        <li><a class="mobile-menu-link locked-all" href="single-course-two.html">A.I</a>
+                                                        </li>
+                                                        <li><a class="mobile-menu-link locked-all" href="single-course-three.html">M.L</a>
+                                                        </li>
+                                                        <li><a class="mobile-menu-link locked-all" href="single-course-four.html">Block
+                                                                Chain</a></li>
+                                                        <li><a class="mobile-menu-link locked-all" href="single-course-five.html locked-all">Cloud
+                                                                Computing</a></li>
+                                                        <li><a class="mobile-menu-link locked-all" href="single-course-free.html locked-all">Ethical
+                                                                Hacking</a>
+                                                        </li>
                                                     </ul>
                                                     <ul class="">
-                                                        <li class="parent"><a href="#">Others</a></li>
-                                                        <li><a href="become-instructor.html">Aptitude</a></li>
-                                                        <li><a href="instructor-profile.html">Soft Skills</a></li>
-                                                        <li><a href="instructor.html">Coading Contest</a></li>
-                                                        <li><a href="pricing.html">Coading Quiz</a></li>
-                                                        <li><a href="log-in.html">Log In</a></li>
-                                                        <li><a href="registration.html">Registration</a></li>
-                                                    </ul>
-                                                    <div class="thumbnav-area">
-                                                        <!-- single thumbnav -->
-                                                        <a href="create-course.html" class="single-thumbnav">
-                                                            <div class="icon">
-                                                                <img src="assets/images/nav/04.png" alt="nav">
-                                                            </div>
-                                                            <span>Create Course</span>
-                                                        </a>
-                                                        <!-- single thumbnav end -->
-                                                        <!-- single thumbnav -->
-                                                        <a href="lesson-details.html" class="single-thumbnav mash">
-                                                            <div class="icon">
-                                                                <img src="assets/images/nav/05.png" alt="nav">
-                                                            </div>
-                                                            <span>Lesson Details</span>
-                                                        </a>
-                                                        <!-- single thumbnav end -->
-                                                        <!-- single thumbnav -->
-                                                        <a href="instructor.html" class="single-thumbnav">
-                                                            <div class="icon">
-                                                                <img src="assets/images/nav/06.png" alt="nav">
-                                                            </div>
-                                                            <span>Instructor</span>
-                                                        </a>
-                                                        <!-- single thumbnav end -->
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </li>
-                                        <li class="has-dropdown">
-                                            <a class="nav-link" href="#">Dashboard</a>
-                                            <ul class="submenu">
-                                                <li class="sub-dropdown">
-                                                    <a class="submenu-link" href="javascript:void(0);">Instructor
-                                                        Dashboard</a>
-                                                    <ul class="submenu third-lvl base">
-                                                        <li><a class="mobile-menu-link" href="dashboard.html">Dashboard</a></li>
-                                                        <li><a class="mobile-menu-link" href="my-profile.html">My
-                                                                Profile</a></li>
-                                                        <li><a class="mobile-menu-link" href="enroll-course.html">Enroll
-                                                                Course</a></li>
-                                                        <li><a class="mobile-menu-link" href="wishlist.html">Wishlist</a></li>
-                                                        <li><a class="mobile-menu-link" href="reviews.html">Reviews</a>
+                                                        <li class="parent"><a href="#" class="locked-all">Others</a>
                                                         </li>
-                                                        <li><a class="mobile-menu-link" href="quick-attempts.html">Quick
-                                                                Attempts</a></li>
-                                                        <li><a class="mobile-menu-link" href="order-history.html">Order
-                                                                History</a></li>
-                                                        <li><a class="mobile-menu-link" href="question-answer.html">Question Answer</a></li>
-                                                        <li><a class="mobile-menu-link" href="calender.html">Calender</a></li>
-                                                        <li><a class="mobile-menu-link" href="my-course.html">My
-                                                                Course</a></li>
-                                                        <li><a class="mobile-menu-link" href="announcement.html">Announcement</a></li>
-                                                        <li><a class="mobile-menu-link" href="assignments.html">Assignments</a></li>
-                                                        <li><a class="mobile-menu-link" href="certificate.html">Certificate</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="sub-dropdown">
-                                                    <a class="submenu-link" href="javascript:void(0);">Students
-                                                        Dashboard</a>
-                                                    <ul class="submenu third-lvl base">
-                                                        <li><a class="mobile-menu-link" href="student-dashboard.html">Dashboard</a></li>
-                                                        <li><a class="mobile-menu-link" href="student-profile.html">My
-                                                                Profile</a></li>
-                                                        <li><a class="mobile-menu-link" href="student-enroll-course.html">Enroll Course</a></li>
-                                                        <li><a class="mobile-menu-link" href="student-wishlist.html">Wishlist</a></li>
-                                                        <li><a class="mobile-menu-link" href="student-reviews.html">Reviews</a></li>
-                                                        <li><a class="mobile-menu-link" href="student-quick-attempts.html">Quick Attempts</a>
+                                                        <li><a href="become-instructor.html" class="locked-all">Aptitude</a></li>
+                                                        <li><a href="instructor-profile.html" class="locked-all">Soft Skills</a></li>
+                                                        <li><a href="instructor.html" class="locked-all">Coading
+                                                                Contest</a></li>
+                                                        <li><a href="pricing.html" class="locked-all">Coading
+                                                                Quiz</a></li>
+                                                        <li><a href="log-in.html" class="locked-all">Coding Game</a>
                                                         </li>
-                                                        <li><a class="mobile-menu-link" href="student-order-history.html">Order History</a></li>
-                                                        <li><a class="mobile-menu-link" href="student-question-answer.html">Question Answer</a>
+                                                        <li><a href="registration.html" class="locked-all">Logic
+                                                                Bulding Techniques</a>
                                                         </li>
-                                                        <li><a class="mobile-menu-link" href="student-calender.html">Calender</a></li>
-                                                        <li><a class="mobile-menu-link" href="student-settings.html">Student Settings</a></li>
                                                     </ul>
+
                                                 </li>
                                             </ul>
                                         </li>
                                     </ul>
-
                                 </nav>
                             </div>
 
@@ -266,7 +221,7 @@
                             </div>
                             <div class="buttons-area">
                                 <a href="log-in.html" class="rts-btn btn-border">Log In</a>
-                                <a href="registration.html" class="rts-btn btn-primary">Sign Up</a>
+                                <a href="registration.html" class="rts-btn btn-primary locked-all">Sign Up</a>
                             </div>
                             <div class="menu-btn" id="menu-btn">
                                 <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -437,12 +392,12 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <!-- single course style two -->
-                                        <img src="https://purushotham5.github.io/new-web/assets/images/company-partners/tenxer.png" alt="brand">
+                                        <img src="https://tenxerlabs.com/wp-content/uploads/2024/01/cropped-Tenxer-Logo-Blue_Transparent-BG.png" alt="brand">
                                         <!-- single course style two end -->
                                     </div>
                                     <div class="swiper-slide">
                                         <!-- single course style two -->
-                                        <img src="https://purushotham5.github.io/new-web/assets/images/company-partners/prismberry.png" alt="brand">
+                                        <img src="https://media.licdn.com/dms/image/v2/C560BAQEPaz3tZuGkyw/company-logo_200_200/company-logo_200_200/0/1630573073541/prismberry_technologies_logo?e=2147483647&v=beta&t=UjwZQWX_jKOR2hofsf7Samgx6P_R850QyN2hxvj7wWg" alt="brand">
                                         <!-- single course style two end -->
                                     </div>
                                     <div class="swiper-slide">
@@ -462,7 +417,7 @@
                                     </div>
                                     <div class="swiper-slide">
                                         <!-- single course style two -->
-                                        <img src="https://purushotham5.github.io/new-web/assets/images/company-partners/agivant.png" alt="brand">
+                                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPj-nPtfYzBluY4pXnz2hJJzglIhlnSeUFuL62DZDH40Rwu6-qtX6XD02mPnqH8mlemA&usqp=CAU" alt="brand">
                                         <!-- single course style two end -->
                                     </div>
                                 </div>
@@ -530,7 +485,7 @@
                                     <!-- single course style two -->
                                     <div class="single-course-style-three">
                                         <a href="single-course.html" class="thumbnail">
-                                            <img src="https://www.newtechdojo.com/wp-content/uploads/2018/08/Data-Science.png" alt="course">
+                                            <img src="https://miro.medium.com/v2/resize:fit:900/1*-qBQZCNzykKfRaIaoy-lIA.png" alt="course">
                                             <div class="tag-thumb">
                                                 <span>Data-Science</span>
                                             </div>
@@ -540,7 +495,7 @@
                                                 <div class="tags">Best Seller</div>
                                                 <div class="price">50% Discount</div>
                                             </div>
-                                            <a href="single-course.html">
+                                            <a href="course-hub.html">
                                                 <h5 class="title">How to Master Data Science: The Ultimate 1 Page Strategy Guide</h5>
                                             </a>
                                             <div class="teacher-stars">
@@ -616,8 +571,8 @@
                                 <div class="swiper-slide">
                                     <!-- single course style two -->
                                     <div class="single-course-style-three">
-                                        <a href="single-course.html" class="thumbnail">
-                                            <img style="height: 180px;" src="https://images.unsplash.com/photo-1649180556628-9ba704115795?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cHl0aG9uJTIwbG9nb3xlbnwwfHwwfHx8MA%3D%3D" alt="course">
+                                        <a href="python-course.html" class="thumbnail">
+                                            <img style="height: 180px;" src="https://img-b.udemycdn.com/course/750x422/2314160_8d61_6.jpg" alt="course">
                                             <div class="tag-thumb">
                                                 <span>Python</span>
                                             </div>
@@ -627,7 +582,7 @@
                                                 <div class="tags">Best Seller</div>
                                                 <div class="price">50%</div>
                                             </div>
-                                            <a href="single-course.html">
+                                            <a href="python-course.html">
                                                 <h5 class="title">Mastering Python: A 1 Page Internship Blueprint
                                                 </h5>
                                             </a>
@@ -659,7 +614,7 @@
                                 <div class="swiper-slide">
                                     <!-- single course style two -->
                                     <div class="single-course-style-three">
-                                        <a href="single-course.html" class="thumbnail">
+                                        <a href="java-course.html" class="thumbnail">
                                             <img style="height: 180px;" src="https://img.freepik.com/premium-photo/java-programming-language-phone-screen-with-code-elements-digital-language-3d_327483-549.jpg" alt="course">
                                             <div class="tag-thumb">
                                                 <span>Java</span>
@@ -918,7 +873,7 @@
                                     <div class="leasson-students">
                                         <div class="lesson">
                                             <i class="fa-light fa-calendar-lines-pen"></i>
-                                            <span>78 Concepts</span>
+                                            <span>78</span>
                                         </div>
                                         <div class="students">
                                             <i class="fa-light fa-users"></i>
@@ -954,11 +909,7 @@
                                             <li><i class="fa-solid fa-check"></i>Create Dynamic Web Applications with Modern Frameworks</li>
                                         </ul>
 
-                                        <!-- <div class="button-area">
-                                            <a href="cart.html" class="rts-btn btn-primary">Add To Cart</a>
-                                            <a href="wishlist.html" class="wishlist-btn"><i
-                                                    class="fa-thin fa-circle-heart"></i></a>
-                                        </div> -->
+
                                         <div class="shape">
 
                                         </div>
@@ -972,7 +923,7 @@
                             <!-- single course style two -->
                             <div class="single-course-style-three">
                                 <a href="single-course.html" class="thumbnail">
-                                    <img src="assets/images/course/02.jpg" alt="course">
+                                    <img src="https://miro.medium.com/v2/resize:fit:900/1*-qBQZCNzykKfRaIaoy-lIA.png" alt="course">
                                     <div class="tag-thumb">
                                         <span>Data Science</span>
                                     </div>
@@ -999,11 +950,11 @@
                                     <div class="leasson-students">
                                         <div class="lesson">
                                             <i class="fa-light fa-calendar-lines-pen"></i>
-                                            <span>25 Lessons</span>
+                                            <span>24</span>
                                         </div>
                                         <div class="students">
                                             <i class="fa-light fa-users"></i>
-                                            <span>25 Lessons</span>
+                                            <span>68+</span>
                                         </div>
                                     </div>
                                     <div class="course-content-area">
@@ -1018,7 +969,7 @@
                                             <div class="lesson-studente">
                                                 <div class="lesson">
                                                     <i class="fa-light fa-calendar-lines-pen"></i>
-                                                    <span>25 Lessons</span>
+                                                    <span>25</span>
                                                 </div>
                                                 <div class="lesson">
                                                     <i class="fa-light fa-user-group"></i>
@@ -1032,11 +983,7 @@
                                             <li><i class="fa-solid fa-check"></i>Master Machine Learning on Python</li>
                                             <li><i class="fa-solid fa-check"></i>Make accurate predictions</li>
                                         </ul>
-                                        <div class="button-area">
-                                            <a href="cart.html" class="rts-btn btn-primary">Add To Cart</a>
-                                            <a href="wishlist.html" class="wishlist-btn"><i
-                                                    class="fa-thin fa-circle-heart"></i></a>
-                                        </div>
+
                                         <div class="shape">
 
                                         </div>
@@ -1052,7 +999,7 @@
                                 <a href="single-course.html" class="thumbnail">
                                     <img src="assets/images/course/03.jpg" alt="course">
                                     <div class="tag-thumb">
-                                        <span>Marketing</span>
+                                        <span>UI/UX</span>
                                     </div>
                                 </a>
                                 <div class="body-area">
@@ -1077,11 +1024,11 @@
                                     <div class="leasson-students">
                                         <div class="lesson">
                                             <i class="fa-light fa-calendar-lines-pen"></i>
-                                            <span>25 Lessons</span>
+                                            <span>42</span>
                                         </div>
                                         <div class="students">
                                             <i class="fa-light fa-users"></i>
-                                            <span>25 Lessons</span>
+                                            <span>87+</span>
                                         </div>
                                     </div>
                                     <div class="course-content-area">
@@ -1096,7 +1043,7 @@
                                             <div class="lesson-studente">
                                                 <div class="lesson">
                                                     <i class="fa-light fa-calendar-lines-pen"></i>
-                                                    <span>25 Lessons</span>
+                                                    <span>28</span>
                                                 </div>
                                                 <div class="lesson">
                                                     <i class="fa-light fa-user-group"></i>
@@ -1110,11 +1057,7 @@
                                             <li><i class="fa-solid fa-check"></i>Master Machine Learning on Python</li>
                                             <li><i class="fa-solid fa-check"></i>Make accurate predictions</li>
                                         </ul>
-                                        <div class="button-area">
-                                            <a href="cart.html" class="rts-btn btn-primary">Add To Cart</a>
-                                            <a href="wishlist.html" class="wishlist-btn"><i
-                                                    class="fa-thin fa-circle-heart"></i></a>
-                                        </div>
+
                                         <div class="shape">
 
                                         </div>
@@ -1130,7 +1073,7 @@
                                 <a href="single-course.html" class="thumbnail">
                                     <img src="assets/images/course/04.jpg" alt="course">
                                     <div class="tag-thumb">
-                                        <span>Marketing</span>
+                                        <span>Data Analysis</span>
                                     </div>
                                 </a>
                                 <div class="body-area">
@@ -1142,9 +1085,9 @@
                                         <h5 class="title">How to Run truly Productive in Meetings – and add value</h5>
                                     </a>
                                     <div class="teacher-stars">
-                                        <div class="teacher"><span>Dr. Angela Yu</span></div>
+                                        <div class="teacher"><span>Sree Latha H</span></div>
                                         <ul class="stars">
-                                            <li class="span">4.5</li>
+                                            <li class="span">4.4</li>
                                             <li><i class="fa-sharp fa-solid fa-star"></i></li>
                                             <li><i class="fa-sharp fa-solid fa-star"></i></li>
                                             <li><i class="fa-sharp fa-solid fa-star"></i></li>
@@ -1155,16 +1098,16 @@
                                     <div class="leasson-students">
                                         <div class="lesson">
                                             <i class="fa-light fa-calendar-lines-pen"></i>
-                                            <span>25 Lessons</span>
+                                            <span>87</span>
                                         </div>
                                         <div class="students">
                                             <i class="fa-light fa-users"></i>
-                                            <span>25 Lessons</span>
+                                            <span>79+</span>
                                         </div>
                                     </div>
                                     <div class="course-content-area">
                                         <h5 class="heading-title">
-                                            <a href="single-course.html">The Complete Web Developer in 2023: Zero to
+                                            <a href="single-course.html">The Complete Web Developer in 2024: Zero to
                                                 Mastery</a>
                                         </h5>
                                         <div class="tags-area-wrapper">
@@ -1174,25 +1117,21 @@
                                             <div class="lesson-studente">
                                                 <div class="lesson">
                                                     <i class="fa-light fa-calendar-lines-pen"></i>
-                                                    <span>25 Lessons</span>
+                                                    <span>29</span>
                                                 </div>
                                                 <div class="lesson">
                                                     <i class="fa-light fa-user-group"></i>
-                                                    <span>54</span>
+                                                    <span>54+</span>
                                                 </div>
                                             </div>
                                         </div>
                                         <p class="desc">Learn to create Machine Learning with Algorithms in Python and R from two Data Science experts included.</p>
                                         <ul class="wrapper-list">
                                             <li><i class="fa-solid fa-check"></i>Master Machine Learning on Python</li>
-                                            <li><i class="fa-solid fa-check"></i>Master Machine Learning on Python</li>
+                                            <!-- <li><i class="fa-solid fa-check"></i>Master Machine Learning on Python</li> -->
                                             <li><i class="fa-solid fa-check"></i>Make accurate predictions</li>
                                         </ul>
-                                        <div class="button-area">
-                                            <a href="cart.html" class="rts-btn btn-primary">Add To Cart</a>
-                                            <a href="wishlist.html" class="wishlist-btn"><i
-                                                    class="fa-thin fa-circle-heart"></i></a>
-                                        </div>
+
                                         <div class="shape">
 
                                         </div>
@@ -1208,7 +1147,7 @@
                                 <a href="single-course.html" class="thumbnail">
                                     <img src="assets/images/course/06.jpg" alt="course">
                                     <div class="tag-thumb">
-                                        <span>Marketing</span>
+                                        <span>Web Dev</span>
                                     </div>
                                 </a>
                                 <div class="body-area">
@@ -1220,9 +1159,9 @@
                                         <h5 class="title">Pole Dancing Video Course with Noelle Wood</h5>
                                     </a>
                                     <div class="teacher-stars">
-                                        <div class="teacher"><span>Dr. Angela Yu</span></div>
+                                        <div class="teacher"><span>Punith G</span></div>
                                         <ul class="stars">
-                                            <li class="span">4.5</li>
+                                            <li class="span">4.8</li>
                                             <li><i class="fa-sharp fa-solid fa-star"></i></li>
                                             <li><i class="fa-sharp fa-solid fa-star"></i></li>
                                             <li><i class="fa-sharp fa-solid fa-star"></i></li>
@@ -1233,16 +1172,16 @@
                                     <div class="leasson-students">
                                         <div class="lesson">
                                             <i class="fa-light fa-calendar-lines-pen"></i>
-                                            <span>25 Lessons</span>
+                                            <span>46</span>
                                         </div>
                                         <div class="students">
                                             <i class="fa-light fa-users"></i>
-                                            <span>25 Lessons</span>
+                                            <span>120+</span>
                                         </div>
                                     </div>
                                     <div class="course-content-area">
                                         <h5 class="heading-title">
-                                            <a href="single-course.html">The Complete Web Developer in 2023: Zero to
+                                            <a href="single-course.html">The Complete Web Developer in 2024: Zero to
                                                 Mastery</a>
                                         </h5>
                                         <div class="tags-area-wrapper">
@@ -1252,7 +1191,7 @@
                                             <div class="lesson-studente">
                                                 <div class="lesson">
                                                     <i class="fa-light fa-calendar-lines-pen"></i>
-                                                    <span>25 Lessons</span>
+                                                    <span>12</span>
                                                 </div>
                                                 <div class="lesson">
                                                     <i class="fa-light fa-user-group"></i>
@@ -1263,14 +1202,10 @@
                                         <p class="desc">Learn to create Machine Learning with Algorithms in Python and R from two Data Science experts included.</p>
                                         <ul class="wrapper-list">
                                             <li><i class="fa-solid fa-check"></i>Master Machine Learning on Python</li>
-                                            <li><i class="fa-solid fa-check"></i>Master Machine Learning on Python</li>
+                                            <!-- <li><i class="fa-solid fa-check"></i>Master Machine Learning on Python</li> -->
                                             <li><i class="fa-solid fa-check"></i>Make accurate predictions</li>
                                         </ul>
-                                        <div class="button-area">
-                                            <a href="cart.html" class="rts-btn btn-primary">Add To Cart</a>
-                                            <a href="wishlist.html" class="wishlist-btn"><i
-                                                    class="fa-thin fa-circle-heart"></i></a>
-                                        </div>
+
                                         <div class="shape">
 
                                         </div>
@@ -1286,7 +1221,7 @@
                                 <a href="single-course.html" class="thumbnail">
                                     <img src="assets/images/course/07.jpg" alt="course">
                                     <div class="tag-thumb">
-                                        <span>Marketing</span>
+                                        <span>AI</span>
                                     </div>
                                 </a>
                                 <div class="body-area">
@@ -1295,12 +1230,12 @@
                                         <div class="price">$49.50</div>
                                     </div>
                                     <a href="single-course.html">
-                                        <h5 class="title">Statistics for Data Science and Business Analysis</h5>
+                                        <h5 class="title">Genarative AI</h5>
                                     </a>
                                     <div class="teacher-stars">
-                                        <div class="teacher"><span>Dr. Angela Yu</span></div>
+                                        <div class="teacher"><span>Vinodh L</span></div>
                                         <ul class="stars">
-                                            <li class="span">4.5</li>
+                                            <li class="span">4.2</li>
                                             <li><i class="fa-sharp fa-solid fa-star"></i></li>
                                             <li><i class="fa-sharp fa-solid fa-star"></i></li>
                                             <li><i class="fa-sharp fa-solid fa-star"></i></li>
@@ -1311,16 +1246,16 @@
                                     <div class="leasson-students">
                                         <div class="lesson">
                                             <i class="fa-light fa-calendar-lines-pen"></i>
-                                            <span>25 Lessons</span>
+                                            <span>56</span>
                                         </div>
                                         <div class="students">
                                             <i class="fa-light fa-users"></i>
-                                            <span>25 Lessons</span>
+                                            <span>130+</span>
                                         </div>
                                     </div>
                                     <div class="course-content-area">
                                         <h5 class="heading-title">
-                                            <a href="single-course.html">The Complete Web Developer in 2023: Zero to
+                                            <a href="single-course.html">The Complete Web Developer in 2024: Zero to
                                                 Mastery</a>
                                         </h5>
                                         <div class="tags-area-wrapper">
@@ -1330,7 +1265,7 @@
                                             <div class="lesson-studente">
                                                 <div class="lesson">
                                                     <i class="fa-light fa-calendar-lines-pen"></i>
-                                                    <span>25 Lessons</span>
+                                                    <span>27</span>
                                                 </div>
                                                 <div class="lesson">
                                                     <i class="fa-light fa-user-group"></i>
@@ -1340,15 +1275,11 @@
                                         </div>
                                         <p class="desc">Learn to create Machine Learning with Algorithms in Python and R from two Data Science experts included.</p>
                                         <ul class="wrapper-list">
-                                            <li><i class="fa-solid fa-check"></i>Master Machine Learning on Python</li>
+                                            <!-- <li><i class="fa-solid fa-check"></i>Master Machine Learning on Python</li> -->
                                             <li><i class="fa-solid fa-check"></i>Master Machine Learning on Python</li>
                                             <li><i class="fa-solid fa-check"></i>Make accurate predictions</li>
                                         </ul>
-                                        <div class="button-area">
-                                            <a href="cart.html" class="rts-btn btn-primary">Add To Cart</a>
-                                            <a href="wishlist.html" class="wishlist-btn"><i
-                                                    class="fa-thin fa-circle-heart"></i></a>
-                                        </div>
+
                                         <div class="shape">
 
                                         </div>
@@ -1364,7 +1295,7 @@
                                 <a href="single-course.html" class="thumbnail">
                                     <img src="assets/images/course/05.jpg" alt="course">
                                     <div class="tag-thumb">
-                                        <span>Marketing</span>
+                                        <span>Data Science</span>
                                     </div>
                                 </a>
                                 <div class="body-area">
@@ -1376,9 +1307,9 @@
                                         <h5 class="title">For Data Science and Business Analysis</h5>
                                     </a>
                                     <div class="teacher-stars">
-                                        <div class="teacher"><span>Dr. Angela Yu</span></div>
+                                        <div class="teacher"><span>Sunitha Madhav</span></div>
                                         <ul class="stars">
-                                            <li class="span">4.5</li>
+                                            <li class="span">4.7</li>
                                             <li><i class="fa-sharp fa-solid fa-star"></i></li>
                                             <li><i class="fa-sharp fa-solid fa-star"></i></li>
                                             <li><i class="fa-sharp fa-solid fa-star"></i></li>
@@ -1389,11 +1320,11 @@
                                     <div class="leasson-students">
                                         <div class="lesson">
                                             <i class="fa-light fa-calendar-lines-pen"></i>
-                                            <span>25 Lessons</span>
+                                            <span>46</span>
                                         </div>
                                         <div class="students">
                                             <i class="fa-light fa-users"></i>
-                                            <span>25 Lessons</span>
+                                            <span>142+</span>
                                         </div>
                                     </div>
                                     <div class="course-content-area">
@@ -1408,7 +1339,7 @@
                                             <div class="lesson-studente">
                                                 <div class="lesson">
                                                     <i class="fa-light fa-calendar-lines-pen"></i>
-                                                    <span>25 Lessons</span>
+                                                    <span>25</span>
                                                 </div>
                                                 <div class="lesson">
                                                     <i class="fa-light fa-user-group"></i>
@@ -1422,11 +1353,7 @@
                                             <li><i class="fa-solid fa-check"></i>Master Machine Learning on Python</li>
                                             <li><i class="fa-solid fa-check"></i>Make accurate predictions</li>
                                         </ul>
-                                        <div class="button-area">
-                                            <a href="cart.html" class="rts-btn btn-primary">Add To Cart</a>
-                                            <a href="wishlist.html" class="wishlist-btn"><i
-                                                    class="fa-thin fa-circle-heart"></i></a>
-                                        </div>
+
                                         <div class="shape">
 
                                         </div>
@@ -1442,7 +1369,7 @@
                                 <a href="single-course.html" class="thumbnail">
                                     <img src="assets/images/course/01.jpg" alt="course">
                                     <div class="tag-thumb">
-                                        <span>Marketing</span>
+                                        <span>Programming</span>
                                     </div>
                                 </a>
                                 <div class="body-area">
@@ -1454,9 +1381,9 @@
                                         <h5 class="title">Automate the Boring Stuff with Python Programming</h5>
                                     </a>
                                     <div class="teacher-stars">
-                                        <div class="teacher"><span>Dr. Angela Yu</span></div>
+                                        <div class="teacher"><span>Jaya Chandhra</span></div>
                                         <ul class="stars">
-                                            <li class="span">4.5</li>
+                                            <li class="span">4.3</li>
                                             <li><i class="fa-sharp fa-solid fa-star"></i></li>
                                             <li><i class="fa-sharp fa-solid fa-star"></i></li>
                                             <li><i class="fa-sharp fa-solid fa-star"></i></li>
@@ -1467,11 +1394,11 @@
                                     <div class="leasson-students">
                                         <div class="lesson">
                                             <i class="fa-light fa-calendar-lines-pen"></i>
-                                            <span>25 Lessons</span>
+                                            <span>29 </span>
                                         </div>
                                         <div class="students">
                                             <i class="fa-light fa-users"></i>
-                                            <span>25 Lessons</span>
+                                            <span>132</span>
                                         </div>
                                     </div>
                                     <div class="course-content-area">
@@ -1486,7 +1413,7 @@
                                             <div class="lesson-studente">
                                                 <div class="lesson">
                                                     <i class="fa-light fa-calendar-lines-pen"></i>
-                                                    <span>25 Lessons</span>
+                                                    <span>25</span>
                                                 </div>
                                                 <div class="lesson">
                                                     <i class="fa-light fa-user-group"></i>
@@ -1500,11 +1427,7 @@
                                             <li><i class="fa-solid fa-check"></i>Master Machine Learning on Python</li>
                                             <li><i class="fa-solid fa-check"></i>Make accurate predictions</li>
                                         </ul>
-                                        <div class="button-area">
-                                            <a href="cart.html" class="rts-btn btn-primary">Add To Cart</a>
-                                            <a href="wishlist.html" class="wishlist-btn"><i
-                                                    class="fa-thin fa-circle-heart"></i></a>
-                                        </div>
+
                                         <div class="shape">
                                         </div>
                                     </div>
@@ -1529,7 +1452,7 @@
                             <img src="assets/images/banner/bulb-2.png" alt="icon">
                             <span>Registration</span>
                         </div>
-                        <h2 class="title mb--30">Register Your Account Get free <br> access to 60000 online course
+                        <h2 class="title mb--30">Register Now and <br> access to 120+ online course
                             <img src="assets/images/fun-facts/01.png" alt="fun-facts">
                         </h2>
                         <div class="counter-remaining-area" id="timer">
@@ -1618,7 +1541,7 @@
                         </div>
                         <h2 class="title">Join Us Become an Instructor <br> & Inspire Learning</h2>
                         <p class="post-title">As an instructor with us, you'll have the opportunity to inspire, guide, and mentor our diverse community of students. Whether you're an industry expert, an academic guru, or an experienced professional</p>
-                        <a href="become-instructor.html" class="rts-btn btn-primary with-arrow">Join Us <i
+                        <a href="" class="rts-btn btn-primary with-arrow locked-all">Join Us <i
                                 class="fa-regular fa-arrow-right"></i></a>
                     </div>
                 </div>
@@ -1641,8 +1564,8 @@
                             <div class="icon">
                                 <img src="assets/images/fun-facts/icon/01.png" alt="icon">
                             </div>
-                            <h5 class="title"><span class="counter">65,972</span></h5>
-                            <span class="enr">Students Enrolled</span>
+                            <h5 class="title"><span class="counter">1000</span></h5>
+                            <span class="enr">Present Enrolled</span>
                         </div>
                         <!-- single end -->
                         <!-- single  -->
@@ -1650,7 +1573,7 @@
                             <div class="icon">
                                 <img src="assets/images/fun-facts/icon/02.png" alt="icon">
                             </div>
-                            <h5 class="title"><span class="counter">5,321</span></h5>
+                            <h5 class="title"><span class="counter">25</span></h5>
                             <span class="enr">Completed Course</span>
                         </div>
                         <!-- single end -->
@@ -1659,7 +1582,7 @@
                             <div class="icon">
                                 <img src="assets/images/fun-facts/icon/03.png" alt="icon">
                             </div>
-                            <h5 class="title"><span class="counter">44,239</span></h5>
+                            <h5 class="title"><span class="counter">1500</span></h5>
                             <span class="enr">Students Learner</span>
                         </div>
                         <!-- single end -->
@@ -1668,8 +1591,8 @@
                             <div class="icon">
                                 <img src="assets/images/fun-facts/icon/04.png" alt="icon">
                             </div>
-                            <h5 class="title"><span class="counter">75,992</span></h5>
-                            <span class="enr">Students Enrolled</span>
+                            <h5 class="title"><span class="counter">8000</span></h5>
+                            <span class="enr">Total Students Enrolled</span>
                         </div>
                         <!-- single end -->
                     </div>
@@ -1767,16 +1690,16 @@
                                 <img src="assets/images/banner/bulb-2.png" alt="icon">
                                 <span>Why Choose Us</span>
                             </div>
-                            <h2 class="title mb--25">Build your Skills Certificate From <br> the Studyhub Online course
+                            <h2 class="title mb--25">Build your Skills Certificate From <br> the PROGMASTER Online course
                             </h2>
-                            <div class="finding-source">
+                            <!-- <div class="finding-source">
                                 <a href="#">
                                     <img src="assets/images/cta/01.svg" alt="cta-one">
                                 </a>
                                 <a href="#">
                                     <img src="assets/images/cta/02.svg" alt="cta-one">
                                 </a>
-                            </div>
+                            </div> -->
                         </div>
                         <div class="image-right">
                             <img src="assets/images/cta/03.png" alt="cta-main">
@@ -1797,8 +1720,8 @@
                         <!-- single sized  footer  -->
                         <div class="footer-singl-wized left-logo">
                             <div class="head">
-                                <a href="#">
-                                    <img src="assets/images/logo/logo-2.svg" alt="logo" loading="lazy">
+                                <a href="index.html" class="logo">
+                                    PROGMASTER
                                 </a>
                             </div>
                             <div class="body">
@@ -1806,9 +1729,10 @@
                                     We are passionate education dedicated to providing high-quality resources learners all backgrounds.
                                 </p>
                                 <ul class="wrapper-list">
-                                    <li><i class="fa-regular fa-location-dot"></i>Yarra Park, Melbourne, Australia </li>
-                                    <li><a href="call-to:61485826710"><i class="fa-regular fa-phone"></i>+(61)
-                                            485-826-710</a></li>
+                                    <li><i class="fa-regular fa-location-dot"></i>Govardhana Giri, Andhra Pradesh, India
+                                    </li>
+                                    <li><a href="call-to:61485826710"><i class="fa-regular fa-phone"></i>+(91)
+                                            7993854229</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1820,11 +1744,11 @@
                             </div>
                             <div class="body">
                                 <ul class="menu">
-                                    <li><a href="#">Latest Courses</a></li>
-                                    <li><a href="#">Mission & Vision</a></li>
-                                    <li><a href="#">Join a Carrer</a></li>
-                                    <li><a href="#">Our Approach</a></li>
-                                    <li><a href="#">Pricing Plan</a></li>
+                                    <li><a href="#" class="locked-all">Latest Courses</a></li>
+                                    <li><a href="#" class="locked-all">Mission & Vision</a></li>
+                                    <li><a href="#" class="locked-all">Join a Carrer</a></li>
+                                    <li><a href="#" class="locked-all">Our Approach</a></li>
+                                    <li><a href="#" class="locked-all">Course Fee</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1837,10 +1761,10 @@
                             <div class="body">
                                 <ul class="menu">
                                     <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Upcoming Events</a></li>
-                                    <li><a href="#">Blog & News</a></li>
-                                    <li><a href="#">FAQ Question</a></li>
-                                    <li><a href="#">Course</a></li>
+                                    <li><a href="#" class="locked-all">Upcoming Events</a></li>
+                                    <li><a href="#" class="locked-all">Blog & News</a></li>
+                                    <li><a href="#" class="locked-all">FAQ Question</a></li>
+                                    <li><a href="#" class="locked-all">Course</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1876,14 +1800,14 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="copyright-area-one">
-                            <p>Copyright © 2024 All Rights Reserved by Studyhub</p>
+                            <p>Copyright © 2024 All Rights Reserved by PROGMASTER PVT LTD</p>
                             <div class="social-copyright">
                                 <ul>
-                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a href="#" class="locked-all"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="#" class="locked-all"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a href="#" class="locked-all"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li><a href="#" class="locked-all"><i class="fa-brands fa-pinterest"></i></a></li>
+                                    <li><a href="#" class="locked-all"><i class="fa-brands fa-youtube"></i></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -1893,118 +1817,16 @@
         </div>
     </div>
     <!-- footer call to action area end -->
-
-    <!-- cart area start -->
-
-    <!-- cart area start -->
-    <div class="cart-bar">
-        <div class="cart-header">
-            <h3 class="cart-heading">MY CART (3 ITEMS)</h3>
-            <div class="close-cart"><i class="fal fa-times"></i></div>
-        </div>
-        <div class="product-area">
-            <div class="product-item">
-                <div class="product-detail">
-                    <div class="product-thumb"><img src="assets/images/course/cart/01.jpg" alt="product-thumb"></div>
-                    <div class="item-wrapper">
-                        <span class="product-name">Construct Map</span>
-                        <div class="item-wrapper">
-                            <span class="product-variation"><span class="color">Green /</span>
-                            <span class="size">XL</span></span>
-                        </div>
-                        <div class="item-wrapper">
-                            <span class="product-qnty">3 ×</span>
-                            <span class="product-price">$198.00</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="cart-edit">
-                    <div class="quantity-edit">
-                        <button class="button"><i class="fal fa-minus minus"></i></button>
-                        <input type="text" class="input" value="3">
-                        <button class="button plus">+<i class="fal fa-plus plus"></i></button>
-                    </div>
-                    <div class="item-wrapper d-flex mr--5 align-items-center">
-                        <a href="#" class="product-edit"><i class="fal fa-edit"></i></a>
-                        <a href="#" class="delete-cart"><i class="fal fa-times"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="product-item">
-                <div class="product-detail">
-                    <div class="product-thumb"><img src="assets/images/course/cart/02.jpg" alt="product-thumb"></div>
-                    <div class="item-wrapper">
-                        <span class="product-name"> Bridge product</span>
-                        <div class="item-wrapper">
-                            <span class="product-variation"><span class="color">Green /</span>
-                            <span class="size">XL</span></span>
-                        </div>
-                        <div class="item-wrapper">
-                            <span class="product-qnty">2 ×</span>
-                            <span class="product-price">$88.00</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="cart-edit">
-                    <div class="quantity-edit">
-                        <button class="button"><i class="fal fa-minus minus"></i></button>
-                        <input type="text" class="input" value="2">
-                        <button class="button plus">+<i class="fal fa-plus plus"></i></button>
-                    </div>
-                    <div class="item-wrapper d-flex mr--5 align-items-center">
-                        <a href="#" class="product-edit"><i class="fal fa-edit"></i></a>
-                        <a href="#" class="delete-cart"><i class="fal fa-times"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="product-item last-child">
-                <div class="product-detail">
-                    <div class="product-thumb"><img src="assets/images/course/cart/03.jpg" alt="product-thumb"></div>
-                    <div class="item-wrapper">
-                        <span class="product-name">Labour helmet</span>
-                        <div class="item-wrapper">
-                            <span class="product-variation"><span class="color">Green /</span>
-                            <span class="size">XL</span></span>
-                        </div>
-                        <div class="item-wrapper">
-                            <span class="product-qnty">1 ×</span>
-                            <span class="product-price">$289.00</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="cart-edit">
-                    <div class="quantity-edit">
-                        <button class="button"><i class="fal fa-minus minus"></i></button>
-                        <input type="text" class="input" value="2">
-                        <button class="button plus">+<i class="fal fa-plus plus"></i></button>
-                    </div>
-                    <div class="item-wrapper d-flex mr--5 align-items-center">
-                        <a href="#" class="product-edit"><i class="fal fa-edit"></i></a>
-                        <a href="#" class="delete-cart"><i class="fal fa-times"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="cart-bottom-area">
-            <span class="spend-shipping"><i class="fal fa-truck"></i> SPENT <span class="amount">$199.00</span> MORE FOR FREE SHIPPING</span>
-            <span class="total-price">TOTAL: <span class="price">$556</span></span>
-            <a href="checkout.html" class="checkout-btn cart-btn">PROCEED TO CHECKOUT</a>
-            <a href="cart.html" class="view-btn cart-btn">VIEW CART</a>
-        </div>
-    </div>
-    <!-- cart area edn -->
-    <!-- cart area edn -->
-
     <!-- header style two -->
     <div id="side-bar" class="side-bar header-two">
         <button class="close-icon-menu"><i class="far fa-times"></i></button>
         <!-- inner menu area desktop start -->
         <div class="inner-main-wrapper-desk">
             <div class="thumbnail">
-                <img src="assets/images/banner/04.jpg" alt="elevate">
+                <img src="single-course-assets/images/banner/04.jpg" alt="elevate">
             </div>
             <div class="inner-content">
-                <h4 class="title">We Build Building and Great Constructive Homes.</h4>
+                <h4 class="title">We Build Building and Great Constructive Basics.</h4>
                 <p class="disc">
                     We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies.
                 </p>
@@ -2019,170 +1841,116 @@
             <nav class="nav-main mainmenu-nav mt--30">
                 <ul class="mainmenu metismenu" id="mobile-menu-active">
                     <li class="has-droupdown">
-                        <a href="#" class="main">Home</a>
+                        <a href="#" class="main">LMS</a>
                         <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="index.html">Main Home</a></li>
-                            <li><a class="mobile-menu-link" href="index-two.html">Online Course</a></li>
-                            <li><a class="mobile-menu-link" href="index-three.html">Course Hub</a></li>
-                            <li><a class="mobile-menu-link" href="index-four.html">Distance Learning</a></li>
-                            <li><a class="mobile-menu-link" href="index-five.html">Single Instructor</a></li>
-                            <li><a class="mobile-menu-link" href="index-six.html">Language Academy</a></li>
-                            <li><a class="mobile-menu-link" href="index-seven.html">Gym Instructor</a></li>
-                            <li><a class="mobile-menu-link" href="index-eight.html">Kitchen Coach</a></li>
-                            <li><a class="mobile-menu-link" href="index-nine.html">Course Portal</a></li>
-                            <li><a class="mobile-menu-link" href="index-ten.html">Business Coach</a></li>
+                            <li>
+                                <a href="course-hub.html">Internship Hub</a>
+                                <span>Hot</span>
+                            </li>
+                            <li>
+                                <a href="index-two.html" class="locked-all">Online
+                                course </a>
+                                <span class="popular">Popular</span>
+                            </li>
+                            <li>
+                                <a href="index.html" class="locked-all">Live
+                                Projects</a>
+
+                            </li>
+                            <li><a href="index-four.html" class="locked-all">Distance
+                                learning</a></li>
+                            <li>
+                                <a href="index-five.html" class="locked-all">Instructor
+                                Hiring</a>
+                                <span>Hot</span>
+                            </li>
+                            <li>
+                                <a href="index-six.html" class="locked-all">Online
+                                Terminal</a>
+                                <span>Hot</span>
+                            </li>
+                            <li><a href="index-seven.html" class="locked-all">Student
+                                Community</a></li>
+                            <li>
+                                <a href="index-eight.html" class="locked-all">Up-Comming
+                                Webinar</a>
+                                <span class="popular">Popular</span>
+                            </li>
+                            <li><a href="index-nine.html" class="locked-all">Course
+                                Portal</a></li>
+                            <li><a href="index-ten.html" class="locked-all">Inern
+                                Hiring</a></li>
+
                         </ul>
                     </li>
                     <li class="has-droupdown">
                         <a href="#" class="main">Pages</a>
                         <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="about.html">About Us</a></li>
-                            <li><a class="mobile-menu-link" href="about-two.html">About Us Two</a></li>
-                            <li><a class="mobile-menu-link" href="instructor-profile.html">Profile</a></li>
-                            <li><a class="mobile-menu-link" href="contact.html">Contact</a></li>
-                            <li class="has-droupdown third-lvl">
-                                <a class="main" href="#">Zoom</a>
-                                <ul class="submenu-third-lvl mm-collapse">
-                                    <li>
-                                        <a href="zoom-meeting.html"></a>Zoom Meeting</li>
-                                    <li>
-                                        <a href="zoom-details.html"></a>Zoom Details</li>
-                                </ul>
-                            </li>
-                            <li class="has-droupdown third-lvl">
-                                <a class="main" href="#">Event</a>
-                                <ul class="submenu-third-lvl mm-collapse">
-                                    <li>
-                                        <a href="event.html"></a>Event</li>
-                                    <li>
-                                        <a href="event-two.html"></a>Event Two</li>
-                                    <li>
-                                        <a href="event-details.html"></a>Event Details</li>
-                                </ul>
-                            </li>
-                            <li class="has-droupdown third-lvl">
-                                <a class="main" href="#">Shop</a>
-                                <ul class="submenu-third-lvl mm-collapse">
-                                    <li>
-                                        <a href="shop.html"></a>Shop</li>
-                                    <li>
-                                        <a href="product-details.html"></a>Product Details</li>
-                                    <li>
-                                        <a href="checkout.html"></a>Checkout</li>
-                                    <li>
-                                        <a href="cart.html"></a>Cart</li>
-                                </ul>
-                            </li>
+                            <li><a href="about.html" class="locked-all">About Us</a></li>
+                            <!-- <li><a href="about-two.html">About Two</a></li>
+                                                <li><a href="instructor-profile.html">Profile</a></li> -->
+                            <li><a href="contact.html" class="locked-all">Contact</a></li>
                         </ul>
                     </li>
                     <li class="has-droupdown">
                         <a href="#" class="main">Course</a>
                         <ul class="submenu mm-collapse">
-                            <li><a href="#" class="tag">Courses</a></li>
-                            <li><a class="mobile-menu-link" href="course-one.html">Courses</a></li>
-                            <li><a class="mobile-menu-link" href="course-two.html">Course List</a></li>
-                            <li><a class="mobile-menu-link" href="course-three.html">Course Grid</a></li>
-                            <li><a class="mobile-menu-link" href="course-four.html">Course List Two</a></li>
-                            <li><a class="mobile-menu-link" href="course-five.html">Course Grid Two</a></li>
-                            <li><a class="mobile-menu-link" href="course-six.html">Course Filter</a></li>
+                            <li><a href="#" class="tag">Internships</a></li>
+                            <li><a class="mobile-menu-link" href="java-course.html">Java</a>
+                            </li>
+                            <li><a class="mobile-menu-link" href="python-course.html">Python</a>
+                            </li>
+                            <li><a class="mobile-menu-link" href="web dev.html">Web
+                                Dev</a>
+                            </li>
+                            <li><a class="mobile-menu-link locked-all" href="course-four.html">Flutter</a>
+                            </li>
+                            <li><a class="mobile-menu-link locked-all" href="course-five.html">Data
+                                Science</a></li>
+                            <li><a class="mobile-menu-link locked-all" href="course-six.html">Microsoft
+                                Azure</a></li>
                         </ul>
                         <ul class="submenu mm-collapse">
-                            <li><a href="#" class="tag">Courses Details</a></li>
-                            <li><a class="mobile-menu-link" href="single-course.html">Courses Details</a></li>
-                            <li><a class="mobile-menu-link" href="single-course-two.html">Courses Details V2</a></li>
-                            <li><a class="mobile-menu-link" href="single-course-three.html">Courses Details V3</a></li>
-                            <li><a class="mobile-menu-link" href="single-course-four.html">Courses Details V4</a></li>
-                            <li><a class="mobile-menu-link" href="single-course-five.html">Courses Details V5</a></li>
-                            <li><a class="mobile-menu-link" href="single-course-free.html">Courses Details Free</a></li>
+                            <li><a href="#" class="tag">Courses</a></li>
+
+                            <li><a class="mobile-menu-link locked-all" href="single-course.html">AWS</a>
+                            </li>
+                            <li><a class="mobile-menu-link locked-all" href="single-course-two.html">A.I</a>
+                            </li>
+                            <li><a class="mobile-menu-link locked-all" href="single-course-three.html">M.L</a>
+                            </li>
+                            <li><a class="mobile-menu-link locked-all" href="single-course-four.html">Block
+                                Chain</a></li>
+                            <li><a class="mobile-menu-link locked-all" href="single-course-five.html locked-all">Cloud
+                                Computing</a></li>
+                            <li><a class="mobile-menu-link locked-all" href="single-course-free.html locked-all">Ethical
+                                Hacking</a>
+                            </li>
                         </ul>
                         <ul class="submenu mm-collapse">
                             <li><a href="#" class="tag">Others</a></li>
-                            <li><a class="mobile-menu-link" href="become-instructor.html">Become an Instructor</a></li>
-                            <li><a class="mobile-menu-link" href="instructor-profile.html">Instructor Profile</a></li>
-                            <li><a class="mobile-menu-link" href="instructor.html">Instructor</a></li>
-                            <li><a class="mobile-menu-link" href="pricing.html">Membership Plan</a></li>
-                            <li><a class="mobile-menu-link" href="log-in.html">Log In</a></li>
-                            <li><a class="mobile-menu-link" href="registration.html">Registration</a></li>
-                        </ul>
-                    </li>
-                    <li class="has-droupdown">
-                        <a href="#" class="main">Dashboard</a>
-                        <ul class="submenu mm-collapse">
-                            <li class="has-droupdown third-lvl">
-                                <a class="main" href="#">Instructor Dashboard</a>
-                                <ul class="submenu-third-lvl mm-collapse">
-                                    <li>
-                                        <a href="dashboard.html"></a>Dashboard</li>
-                                    <li>
-                                        <a href="my-profile.html"></a>My Profile</li>
-                                    <li>
-                                        <a href="enroll-course.html"></a>Enroll Course</li>
-                                    <li>
-                                        <a href="wishlist.html"></a>Wishlist</li>
-                                    <li>
-                                        <a href="reviews.html"></a>Reviews</li>
-                                    <li>
-                                        <a href="quick-attempts.html"></a>Quick Attempts</li>
-                                    <li>
-                                        <a href="order-history.html"></a>Order History</li>
-                                    <li>
-                                        <a href="question-answer.html"></a>Question Answer</li>
-                                    <li>
-                                        <a href="calender.html"></a>Calender</li>
-                                    <li>
-                                        <a href="my-course.html"></a>My Course</li>
-                                    <li>
-                                        <a href="announcement.html"></a>Announcement</li>
-                                    <li>
-                                        <a href="assignments.html"></a>Assignments</li>
-                                    <li>
-                                        <a href="certificate.html"></a>Certificate</li>
-                                </ul>
+
+                            <li><a href="become-instructor.html" class="locked-all">Aptitude</a></li>
+                            <li><a href="instructor-profile.html" class="locked-all">Soft Skills</a></li>
+                            <li><a href="instructor.html" class="locked-all">Coading
+                                Contest</a></li>
+                            <li><a href="pricing.html" class="locked-all">Coading
+                                Quiz</a></li>
+                            <li><a href="log-in.html" class="locked-all">Coding Game</a>
                             </li>
-                            <li class="has-droupdown third-lvl">
-                                <a class="main" href="#">Students Dashboard</a>
-                                <ul class="submenu-third-lvl mm-collapse">
-                                    <li>
-                                        <a href="student-dashboard.html"></a>Dashboard</li>
-                                    <li>
-                                        <a href="student-profile.html"></a>My Profile</li>
-                                    <li>
-                                        <a href="student-enroll-course.html"></a>Enroll Course</li>
-                                    <li>
-                                        <a href="student-wishlist.html"></a>Wishlist</li>
-                                    <li>
-                                        <a href="student-reviews.html"></a>Reviews</li>
-                                    <li>
-                                        <a href="student-quick-attempts.html"></a>Quick Attempts</li>
-                                    <li>
-                                        <a href="student-order-history.html"></a>Order History</li>
-                                    <li>
-                                        <a href="student-question-answer.html"></a>Question Answer</li>
-                                    <li>
-                                        <a href="student-calender.html"></a>Calender</li>
-                                    <li>
-                                        <a href="student-settings.html"></a>Students Settings</li>
-                                </ul>
+                            <li><a href="registration.html" class="locked-all">Logic
+                                Bulding Techniques</a>
                             </li>
                         </ul>
                     </li>
-                    <li class="has-droupdown">
-                        <a href="#" class="main">Blog</a>
-                        <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="blog.html">Blog</a></li>
-                            <li><a class="mobile-menu-link" href="blog-grid.html">Blog Grid</a></li>
-                            <li><a class="mobile-menu-link" href="blog-list.html">Blog List</a></li>
-                            <li><a class="mobile-menu-link" href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
-                            <li><a class="mobile-menu-link" href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
-                            <li><a class="mobile-menu-link" href="blog-details.html">Blog Details</a></li>
-                        </ul>
-                    </li>
+
                 </ul>
             </nav>
 
+
             <div class="buttons-area">
                 <a href="#" class="rts-btn btn-border">Log In</a>
-                <a href="#" class="rts-btn btn-primary">Sign Up</a>
+                <a href="#" class="rts-btn btn-primary locked-all">Sign Up</a>
             </div>
 
             <div class="rts-social-style-one pl--20 mt--50">
@@ -2213,6 +1981,7 @@
         <!-- mobile menu area end -->
     </div>
     <!-- header style two End -->
+
 
     <!-- modal -->
     <div id="myModal-1" class="modal fade" role="dialog">
